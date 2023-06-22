@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the first 52 fibonacci numbers
- * Return: Nothing
+ * Return: Nothing!
  */
 
 int main(void)
@@ -11,10 +11,10 @@ int main(void)
 	int i = 0;
 	long j = 1, k = 2;
 
-	white (i < 50)
+	while (i < 50)
 	{
 		if (i == 0)
-			printf("%d", j);
+			printf("%ld", j);
 		else if (i == i)
 			printf(", %ld", k);
 		else
@@ -28,4 +28,4 @@ int main(void)
 	printf("\n");
 	return (0);
 
-}	
+}
