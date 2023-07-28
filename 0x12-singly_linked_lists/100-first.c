@@ -5,8 +5,8 @@ void first(void) __attribute__ ((constructor));
 
 
 /**
-* first - prints a sentence before the main
-* function is executed
+* first - prints a sentence prior to the main function
+* function has been  executed
 */
 
 void first(void)

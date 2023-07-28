@@ -4,12 +4,12 @@
 
 
 /**
-* struct list_s - singly linked list
-* @str: string - (malloc'ed string)
-* @len: length of the string
-* @next: points to the next node
-* Description: singly linked list node structure
-* for Holberton project
+* struct list_s - for a singly linked list
+* @str: string - in (malloc'ed string)
+* @len: length of the given string.
+* @next: pointing directly  to the next node
+* Description: singly linked list for node data structure.
+* in Holberton project
 */
 
 typedef struct list_s
